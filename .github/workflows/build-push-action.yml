@@ -1,4 +1,4 @@
-   name: build-push-action1
+   name: build-push-action
 
 on:
   push:
