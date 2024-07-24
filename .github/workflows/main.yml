@@ -32,7 +32,6 @@ jobs:
         ECR_REGISTRY: ${{ steps.login-ecr.outputs.registry }}
         ECR_REPOSITORY: ${{ secrets.REPO_NAME }}
         tags: |
-          latest
           underwater:1.5.1
       run: |
         # Build a docker container and push it to ECR 
